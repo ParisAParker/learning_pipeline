@@ -1,4 +1,5 @@
 import os
+import json
 import streamlit as st
 from dotenv import load_dotenv
 from pathlib import Path
@@ -34,5 +35,9 @@ def main(url):
     save_raw_open_ai_response(response=raw_quiz, video_id=video_id, output_dir=raw_quiz_output_path)
 
     # Clean raw quiz data and export to pdf
-    quiz_data = clean_raw_quiz_data(raw_quiz)
+    raw_quiz_dict_path = raw_quiz_output_path / f"{video_id}.json"
+    with open(raw_quiz_dict_path, "rb") as file:
+        raw_quiz_dict = json.load(file)
+
+    quiz_data = clean_raw_quiz_data(raw_quiz_dict)
     export_pdf(data=quiz_data, video_id=video_id)
