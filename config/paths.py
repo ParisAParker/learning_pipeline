@@ -14,6 +14,7 @@ PROCESSED_DIR = DATA_DIR / "processed"
 TRANSCRIPTS_DIR = RAW_DIR / "transcripts"
 METADATA_DIR = INTERMEDIATE_DIR / "metadata"
 RAW_OPENAI_DIR = RAW_DIR / "openai_responses"
+PROCESSED_OPENAI_DIR = PROCESSED_DIR / "openai_responses"
 LOGS_DIR = BASE_DIR / "logs"
 PDF_OUTPUTS_DIR =  PROCESSED_DIR/ "pdf_ready"
 

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from utils.logger import get_logger
-from config.paths import PROCESSED_DIR
+from config.paths import PROCESSED_OPENAI_DIR
 
 logger = get_logger(__name__)
 
@@ -27,7 +27,7 @@ def extract_quiz_content(response_dict: dict, source_id: str):
         
         save_parsed_quiz(
             data = data,
-            output_path = PROCESSED_DIR / f"{source_id}.json"
+            output_path = PROCESSED_OPENAI_DIR / f"{source_id}.json"
         )
 
         logger.info(f"Successfully extracted {len(data)} quiz items from response.")

@@ -6,7 +6,7 @@ logger = get_logger(__name__)
 
 def create_directories() -> None:
     """Creates directories for each path in dir_paths if they do not already exist"""
-    dir_paths = ['data/raw/openai_responses', 'data/raw/transcripts', 'data/intermediate/metadata']
+    dir_paths = ['data/raw/openai_responses', 'data/raw/transcripts', 'data/intermediate/metadata', 'data/processed/openai_responses']
 
     for path_str in dir_paths:
         path = BASE_DIR / path_str
