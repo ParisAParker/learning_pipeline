@@ -1,18 +1,12 @@
 import os
 import streamlit as st
 import json
+from typing import Optional
 from openai import OpenAI
 from dotenv import load_dotenv
 from pathlib import Path
 
-# # Load environment variables
-# load_dotenv()
-
-# # Load in transcript
-# transcript_path = Path.cwd().parent / 'transcripts/teCubd25XwI.txt'
-# transcript_text = open(transcript_path).read()
-
-def generate_quiz_from_transcript(transcript_text: str, api_key: str) -> str:
+def generate_quiz_from_transcript(transcript_text: str, api_key: str, question_count: int) -> str:
     """
     Generates quiz questions and answers from a transcript using the OpenAI API.
 
@@ -30,7 +24,7 @@ def generate_quiz_from_transcript(transcript_text: str, api_key: str) -> str:
 
     I will give you a transcript. Based ONLY on that transcript:
 
-    1. Generate 20 well-written **open-ended questions**.  
+    1. Generate {str(question_count)} well-written **open-ended questions**.  
     - Each question should test reasoning, application, or connections across ideas, not just recall.  
     - Provide a strong sample answer with a short explanation of why it is correct.  
 
@@ -69,7 +63,7 @@ def generate_quiz_from_transcript(transcript_text: str, api_key: str) -> str:
     return response
 
 
-def save_raw_open_ai_response(response: str, video_id: str, output_dir: str) -> None:
+def save_raw_open_ai_response(response: str, video_id: Optional[str], output_dir: str) -> None:
     """
     Saves the raw OpenAI API response to a file for a given video ID.
 

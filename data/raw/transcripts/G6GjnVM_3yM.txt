@@ -1,0 +1,583 @@
+The following is a call with a CS
+graduate of a 4-year program who's
+looking to get into data analytics and
+claims to have worked extensively with
+Python in the context of machine
+learning.
+I just graduated like two weeks ago.
+So you use Python?
+I have a lot of
+uh Yeah, I use Python. I use like um for
+like a IML I use Python.
+What version of Python do you use?
+Uh 3.11 on like my uh my laptop and then
+on uh Google Collab. I don't know which
+version it is
+everything in how would you check if you
+wanted to know
+uh Python 3 uh dash dash version
+okay how what what other way can you
+check
+um
+I don't know that's like what's what I
+use
+uh have you do you know what the ripple
+is
+what
+today's video sponsor answer is me. I
+built this site called getcracked.io
+because I noticed that there was a
+massive skill gap between what
+candidates know and what they should
+know. This isn't only skill up and
+interview prep content focused on
+language knowledge. It also includes
+things like operating systems,
+concurrency, design patterns, computer
+architecture with questions asked from
+top firms around the world. I also have
+a coding section here that teaches you
+real world concepts. These aren't toy
+puzzles. These aren't contrived problems
+with principles like dynamic programming
+which you will rarely use ever in your
+career. These are real questions with
+real implementations and real
+explanations. Many of them having
+appeared in interviews in the past. Make
+sure to check it out. Do you know what
+the ripple is?
+Ripple. How do you uh spell it?
+R pl.
+No. No. I don't know. I don't know what
+that is.
+Oh, read evaluate print loop.
+Uh,
+you haven't heard about So,
+wait, what?
+You haven't heard about the Python
+ripple?
+No, no, no. I I think I skipped like all
+the like fundamentals and just like go
+straight up to ML cuz like when I
+started to learn like programming like
+uh I use like C and C++ but that was
+like four years ago.
+Uh, do you know what type hinting is in
+Python?
+Type what? Type hinting
+type hinting I don't know that
+so if I wanted to annotate a function
+with the type of its inputs how would
+you do that?
+So if I was to write like add right and
+I would do add and I would do pass in x
+and y to the add method and it would
+return a value right because I add two
+things together.
+How would I how would I hint to the user
+that uses ad what the input parameters
+types should be?
+Uh
+wait let me let me visualize it in my
+mind.
+Sure. So think of writing an ad method
+and passing an x and y and then how do I
+tell the consumer of that ad method what
+the types of x and y should be?
+Uh
+you don't cuz like uh you don't have to
+like specify the type.
+You don't have to, but you can be
+helpful and and specify to the client.
+Uh
+um
+yeah, I don't think I I don't really
+know.
+Okay. Have you ever seen Python code
+where it's like X colon int?
+X colint.
+Um,
+have you seen like X colon int?
+No.
+Okay, that would be how type hinting
+works. I'm curious. Um, do you know what
+integer division is in Python?
+So if I was to do like if I was to do
+uh 3 / two in Python,
+what would the result be?
+Result would be 3 / 2. So that would be
+uh 1.5,
+right? And how would I write that in
+Python?
+Um,
+so like you would uh assign a variable
+for it. For example, uh,
+no, don't don't worry about assigning
+variables, just writing it out.
+Oh, three slash two,
+right? So, what what happens if I did
+three slash slash two? So, two slashes.
+That would be square root.
+Are you sure?
+Wait, no. No. slash slash.
+Um,
+yeah, I don't really know to be honest.
+Okay, that would be integer division,
+right? Right. Right.
+So that would be 3 / two. That would
+give you one cuz it would floor. It
+would do 1.5 and it would floor.
+It would floor like automatically.
+Yeah.
+All right, cool.
+Yeah. And so we just brought up the
+concept of pointers. And so my question
+for you is if I have the statement x
+equals 1.
+Where is one stored? And where is let's
+actually make it a little different.
+Let's say I have a class called a. I
+just a class called a um and it's empty.
+Has no methods, no data members. And I
+do x equals a. Right? So I create an
+object a. Where is x stored? And where
+is a stored?
+Um, class A and it's empty. And then X
+equals A.
+Yeah.
+Uh,
+uh, I have no idea.
+Have you heard of the concept of stack
+and heap?
+Oh, yeah. stack and heap.
+Okay, so if you've heard of the concept
+of stack and heap, do you know what they
+are?
+So stack is the data structure that the
+uh
+the method is uh a method of inserting
+and uh
+we were but we were just we were just
+talking about uh storage not data
+structures.
+Oh
+so I'm talking about stack and heap in
+the context of operating systems.
+uh stack and heaps. Uh stack is like the
+process like for CNS out like it's used
+in uh
+we're not talking about data structures.
+We're talking about operating systems.
+If you haven't heard of stack and heap
+in the context of operating systems,
+that's fine. I just want to make sure
+we're talking about the same thing. Have
+you heard about it in the context of
+operating systems or No,
+I've heard about it.
+Do you know? Okay. I actually don't like
+the word I've heard cuz you can I've
+heard about quantum mechanics. I don't
+know [ __ ] about it. So what I'm guessing
+is do do you know what it is?
+Yeah, I don't know what it is.
+Okay, then we'll we'll skip that for
+now.
+Um so we we mentioned that everything in
+Python is an object. So if everything is
+an object, everything is stored on the
+heap, but the reference to that object
+is stored on the stack. So X would be
+stored on the stack, but you know class
+A would be stored on the heap. We we
+just talked about classes though, right?
+I mentioned class A, right?
+Right.
+If I wanted to initial, if I wanted to
+write class A in Python and have nothing
+inside of it, just an empty class, how
+would you do that?
+What would that look like in code? You
+can describe it to me.
+Class A is empty. So,
+class
+A and then
+class A and then um
+I don't know what's the word.
+Yeah, colon and then
+space and then
+uh
+Wait, is class an object? So you would
+use like self dot.
+Well, we want it to be empty. So we
+don't want any implementation.
+So I'm going to give you I'm going to
+give you a hint.
+It starts with P
+P S.
+Yeah, I cannot I cannot recall.
+Pass.
+Pass. Oh, yeah. Pass.
+Yeah. Um, how how does a list look like
+in Python?
+What's the syntax to write a list?
+Um, curly bracket. No, no, no. Uh, it's
+the it's the I don't know what it's
+called. It's the uh square bracket,
+right? Do you know what a tpple is?
+Yeah, I know what a tpple is.
+What's the difference between a tpple
+and a list?
+So topple is so you have for list you
+have let's say uh an integers in a list.
+So like 0 1 2 3 4 5. But when it comes
+to tpple, you can uh you can al you can
+mix strings and uh integers as well
+inside that uh
+I'm pretty sure you can do that with a
+list too.
+Um so topple maybe it's uh it's more uh
+it's more
+liberal than a list is. So you have you
+can uh put
+uh not just like list uh not just like
+integers and strings together but you
+can also
+uh hold other objects. So
+that's not the difference
+they say like yeah
+you don't know the difference.
+Okay. Um, tpples are immutable, so they
+can't be altered.
+Right. Right. Right. Oh, yeah. Yeah.
+Right. Right. Right.
+That's just one property of a tpple. How
+would I How would I write a tpple in
+Python?
+I have no idea.
+Okay. Well, then don't say I know what a
+tpple is if you have no idea how to
+write one.
+Yeah. So, I was going to ask you, how do
+you write a tpple of size one,
+but you you aren't sure what a tpple is?
+And that's okay, but um well, I guess
+it's not okay that you don't know what a
+tuple is, actually. And it's even more
+not okay that you say you know what it
+is and then you don't cuz that in an
+interview will kill you,
+right?
+Like immediately.
+Um Okay. Do you know if uh do you know
+why, for example? So if do you know how
+to open up a file in in in Python?
+Yeah.
+Okay. How do you do that?
+Um like open to read or just like open
+it.
+Yeah. Let's say you want to open it to
+to read it.
+uh
+like on terminal I just go like usually
+I just uh if I want to read then the
+contents I really just like use cat
+in Python though.
+Oh in Python
+that's the that's the topic of the
+discussion.
+Yeah. I don't know.
+Okay. And you you mentioned you're a
+data analyst.
+Um data science.
+So what do you do at work?
+I I don't have a job yet. Like I'm still
+searching. Like I just got interviews
+and interview. Uh
+sorry I cut you off. Say that again.
+So
+I was applying for cuz like my projects
+are mostly machine learning, deep
+learning. So
+I I don't understand how you're doing
+machine learning and deep learning if
+you don't know the difference between a
+list and a tpple. That's such a big
+mistake that I see people doing. Like,
+what should I learn to be a machine
+learning engineer? Dude, you're not, no
+offense, but you don't even know what a
+ripple is. What the ripple is?
+That's like Python 101. You sit down in
+the your first class with the professor.
+What did you study in? Sorry. What did
+you study in school again?
+Um, computer science, but
+and you don't know what the ripple is.
+Okay. Yeah, cuz like like at the first
+like the uh the the language that I use
+for like all of that is like C and C++.
+Oh, okay. So, you're familiar with C++?
+I wouldn't say I'm familiar, but I use
+it uh like 3 years ago.
+Okay. I don't want to ask you anything
+about three years ago.
+Yeah.
+But that's still not I don't know.
+That's in my opinion that's not an
+excuse. So, sorry. You were saying so is
+this a four-year degree?
+Yeah, for a year.
+Do you mind saying is this in the US?
+No, no, no.
+You mind saying the country?
+Um, yeah, it's Indonesia.
+Okay.
+I don't know anything about Indonesia.
+Indonesian CS programs.
+Um,
+okay.
+How would you do inheritance in Python?
+How would you how would you inherit from
+a class in Python?
+uh return
+return
+what can you explain that a little
+so let's say you have a class uh let's
+say class and inside that class there's
+this uh variables called a and a a
+equals equals one and then if you uh
+return.
+If at the bottom you return the A, that
+would means that the A is the inherited
+uh inherited object.
+Let's say I have like um
+class A and class B and class A is a
+parent of class B. So B inherits from A.
+B is a child of A.
+So how would I write that relationship
+between class B and class A in Python to
+reflect their inheritance hierarchy?
+So first you uh
+class A and then uh write the class B
+within the class A indentation.
+Uh what what does that look like? What
+do you mean write it within the class A
+indentation?
+To be honest, uh like I'm not really
+sure.
+Okay.
+Um, yeah. I don't know what you're doing
+at all with machine learning. You should
+stay far away from that. It's such a
+mistake and I see it all the time. I
+want to be this advanced machine
+learning engineer. It's like
+you don't even know how to figure out
+what version of Python you're using.
+What are you doing with machine
+learning? Like, it's it's just I'm
+trying not to be harsh, but I think this
+is a wakeup call for you. Especially if
+you start interviewing, dude. you will
+get nowhere not knowing these things
+cuz like with Python like I skip like
+the basics like I just straight up to
+like um training model and then
+deploying it cuz that's cuz that's like
+how do you really
+how do how are you what what models are
+you training
+like I've used uh I've trained yolo and
+uh and NLP uh specifically Uh,
+LSDN.
+I don't even understand how you're using
+these libraries when you don't know what
+a default argument is. That's my
+confusion
+cuz I use chat GPT,
+right? So, you're not actually coding.
+Yeah.
+But then how how did you get through
+school four years and graduate?
+[Music]
+be honest with me. Nobody knows your
+name. Nobody knows who you are, where
+you're from.
+I'm still trying to think of it. Wait.
+So like uh my program had not just like
+coding but also like computer networking
+and system operation system operating
+system. And by the end of the programs,
+like I don't really do any coding cuz it
+was just like uh software architecture
+where you don't really code.
+But I did ask you about the stack in the
+heap and you said you had no idea what
+that was and that's operating systems
+101. So like clearly some something is
+not clicking or you're not learning or
+you're ignoring like I I don't know what
+to I don't I'm trying to figure that
+out.
+Probably forgot about it.
+You don't forget about these things.
+It's like saying I forgot how to ride a
+bicycle. Right.
+Let let me ask you um you mentioned
+networking, right?
+Right.
+Do you know what TCP is?
+Yeah. PCP that's the uh
+protocol for file transfer that you wait
+for the uh like example the client uh
+send the packet to the server and then
+uh before the client send the uh the
+next packet you wait for the server to
+send the receive signal. and make sure
+the packet uh
+I said TCP. TCP, not FTP.
+TCP.
+What does TCP stand for?
+It's uh
+Yeah, I forgot.
+Uh transmission control protocol.
+Yeah.
+Yeah. Um dude, your school wasted four
+years of your life.
+I don't know. Are your peers at the same
+level or are your peers more advanced,
+less advanced?
+So like um so like I have like a few
+like peers that are extremely crackly. I
+mean they're already like working while
+I'm while studying. So like many of them
+like have like two years of
+internship/time
+jobs while doing uh studying as as well.
+But
+uh some part like my class didn't
+graduate like only like two two third of
+my class graduated uh at 4 years.
+So what happened to the other oneird
+they passed away or what happened?
+uh they haven't like they haven't
+finished yet cuz like they got a lot of
+stuff like that class they failed or uh
+yeah mostly just classes that they
+failed and they have to retake it so
+they have to add a semester or two. What
+are they failing cuz clearly they're not
+learning anything. So how can you fail a
+course that doesn't teach you anything?
+So I'm I'm kind of curious how you
+passed in four years and they're still
+struggling. What does that mean? What
+does that say about them?
+and the the courses.
+Yeah. Yeah. Yeah. Yeah. I guess so.
+It's just Yeah. You just need to
+understand that you're not where you
+need to be and to get to where you are
+where you want to be. It's going to take
+you need to like relearn everything
+honestly.
+Yeah. I feel like
+pluralite basics.
+Go. Sorry, say that again.
+I feel like I skip like all the like
+important steps and just like go
+straight to the like the advanced stuff
+without knowing. thing is I can
+guarantee you if I ask you about the
+advanced stuff, you also won't know it.
+There's nobody out there that knows the
+advanced stuff but doesn't know how to
+how to create a list in Python.
+Yeah. Yeah. Yeah.
+So when you're saying you're deploying
+all these models, I just know you're
+using Chad GPT.
+True.
+You know, so and like you don't actually
+know the advanced stuff. You just do it,
+but you're not doing it. It's it's chat
+GPT doing it for you.
+So all good, man. And I mean like listen
+at least now you know that you really
+need to start learning because there's
+only up from where you are honestly.
+Right.
+Any questions?
+Right. Right. Um
+maybe that's a question but I I think I
+have like uh like if I'm if I'm cook
+like most people are cook as well like I
+mean in my country cuz like most not
+most like some of my peers are basically
+they're just like I don't know I don't
+want to bring them down but they Yeah.
+So
+okay but that's a coping mechanism.
+That's not an excuse.
+Right. Right. Right. Right. And I uh I I
+did like some web def too like uh react
+like the kind of web devs.
+Okay. You use react.
+Yeah.
+Do you know what they use use state call
+is in react?
+Use state that's for uh for the cons. So
+that would be
+for the what
+the state uh the cons. So use like cons
+let's say. So it's the like variables
+for the state like the const.
+I don't know how you say it.
+Const. No, you said it. Const is is
+const is how you declare a variable and
+you want to make sure that it its
+reference doesn't change. But what does
+that have to do with use state?
+What do you mean use state is for const?
+Uh it's the uh it's the
+state like it's too uh like I don't know
+how I don't know how to explain it but
+okay bro you didn't you didn't do react
+I I read the like
+learn react react.dev dev like learn
+react tutorial. But
+clearly though it didn't stick because
+you stated I don't know I don't even
+know how to parse the statement you
+stated for cons. I don't even know what
+that means.
+Kind of like reiterating but uh I should
+like [ __ ] learn like from the start.
+Yeah, you learn from like bare bones
+and like for projects like most of my
+projects like I couldn't really build
+them without chat. So I guess that's
+like the main problem with me. So, I got
+to stop using
+Don't Don't say it's a problem with you
+because I don't want you to personalize
+it. It's a problem with your learning.
+Like, you need to lock in, you know,
+like you're not you don't have a mental
+deficiency. You sound like you're an
+intelligent person. You can hold a
+conversation. It's just like you
+you don't know what you should.
+Right. Right. Right.
+Right. All right.
+All right. Anything else?
+Um, I guess that's it.
+All right, bro. Good luck on the
+journey.
+Right. Thank you, bro.
+Yeah. See you.
+We have mad cracked people in the chat.
+We have both ends of the scale. We have
+cracked people and people on crack.

@@ -1,19 +1,13 @@
+import json
+import yt_dlp
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
-def create_directories() -> None:
-    """Creates directories for each path in dir_paths if they do not already exist"""
-    dir_paths = ['transcripts', 'outputs/quizzes', 'outputs/flashcards', 'raw_openai']
 
-    for path_str in dir_paths:
-        path = Path(__file__).parent / path_str
-        if not path.exists():
-            path.mkdir(parents=True, exist_ok=True)
-            print("Created directory", path)
 
-def extract_video_id(url):
+def extract_video_id(url: str) -> None:
     """
     Extracts the YouTube video ID from a given YouTube URL.
 
@@ -67,6 +61,20 @@ def transcribe_youtube_video(video_id: str) -> list[dict]:
     return raw
 
 def save_transcript(raw: list[dict], video_id: str) -> None:
+    """
+    Save a YouTube transcript to a text file.
+
+    Each transcript entry is expected to be a dictionary with a 'text' key.
+    The transcript will be written line by line into a file located in the
+    `transcripts/` directory, named after the given video ID.
+
+    Args:
+        raw (list[dict]): A list of transcript entries, each containing a 'text' field.
+        video_id (str): The YouTube video ID used to name the output file.
+
+    Returns:
+        None
+    """
 
     filepath = Path(__file__).parents[1] / f"transcripts/{video_id}.txt"
 
@@ -77,8 +85,39 @@ def save_transcript(raw: list[dict], video_id: str) -> None:
 
         st.success(f"Transcript saved to: {filepath}")
 
+def save_metadata(url: str, video_id: str) -> None:
+    """
+    Extract and save metadata for a YouTube video.
+
+    Uses yt-dlp to fetch metadata (without downloading the video)
+    and saves it as a JSON file in the `metadata/` directory, named
+    after the given video ID.
+
+    Args:
+        url (str): The full YouTube video URL.
+        video_id (str): The YouTube video ID used to name the output file.
+
+    Returns:
+        None
+    """
+    ydl_opts = {
+        'quiet': True,
+        'skip_download': True
+    }
+
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=False)
+
+    metadata_filepath = str(Path(__file__).resolve().parents[1] / f'metadata/{video_id}.json')
+
+    with open(metadata_filepath, 'w') as file:
+        json.dump(info, file)
+
 
 if __name__ == "__main__":
     video_id = "teCubd25XwI"
     raw = transcribe_youtube_video(video_id)
     save_transcript(raw, video_id)
+
+## TO DO: Update the all functions that save outputs to new structure (data folder)
+## Functions: save_metadata, save transcript

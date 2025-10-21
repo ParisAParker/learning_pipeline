@@ -1,0 +1,419 @@
+What if I told you that coding can
+become as addictive as scrolling on your
+phone? The same dopamine hit you get
+from every single scroll will be as
+equivalent as you get with every line of
+code that you write. So, in this video,
+I'm going to be going over five things
+that I did to rewire my brain to be
+addicted to coding. Oh my god, you're
+such a nerd. Well, guess what? This nerd
+earns hundreds of thousands of dollars
+every single year because he knows how
+to code. So, just chill, sit back, and
+relax, and I'll teach you how to do the
+exact same thing. The first step to
+becoming a coding addict is
+understanding your why. Why do you want
+to learn how to code? Is it so you can
+earn hundreds of thousands of dollars as
+a software engineer? Is it because you
+want to build an app or is it just a
+hobby to make your life more efficient?
+In my case, I really like problem
+solving. And as a kid, math was always
+my best subject. And obviously in math
+like algebra or calculus, you do a lot
+of different problems in which you solve
+for X. And very similarly in computer
+science and coding, it's problem
+solving, but instead of handwriting math
+formulas, you write code in Python or
+Java to solve the problems. And so
+that's why I learned how to code. So I
+guess I was a little bit of a nerd. But
+it's important that you have a good
+reason why you want to learn how to code
+because coding is hard. You will
+struggle. But in order for you to even
+start liking the process of even
+struggling, you need to have a strong
+purpose so that you'll see every failure
+as a stepping stone rather than a
+roadblock. But you can't just stop at
+why you want to learn how to code. You
+need a plan that maps your goal into
+daily actions. For example, if you want
+to get a software engineering job, your
+plan might include mastering a specific
+tech stack such as MongoDB, Express,
+React, Node, the MS stack. But
+specifically within that, are you going
+to use free code camp for React or are
+you going to use MongoDB University to
+learn MongoDB? I want you to be very,
+very specific as to what you're actually
+going to do. Because most people don't
+quit coding because it's hard, per se.
+They quit because they don't know where
+to start, what resources to follow, or
+what to do when they're stuck. And so
+once you have those things mapped out
+into a particular road map, now we can
+actually go in and work step by step to
+getting our brain to be addicted to this
+stuff. So step two is love the reps, not
+the results. You need to focus on
+inputs, not just the outcomes. Now, this
+might get kind of weird because we're
+talking about addiction here, but I want
+you to picture this. There's some people
+out there that are really addicted to
+candy. They can't stop eating it and
+then over time they end up getting fat.
+Now, their main focus when they're going
+through this process is every time they
+eat a piece of candy. This candy is so
+good. This candy is so yummy. They're
+just focused on each piece of candy that
+they're able to put in their mouth, they
+don't care about the consequences. They
+don't care about the outcome. They don't
+care if they get fat. And although
+that's a bad addiction, what if we made
+coding a healthy addiction? So instead
+of obsessing over landing a job,
+finishing a project, or chasing a
+highpaying programming language, what if
+you just focused on the act of coding
+itself? What if you just committed to
+coding for 30 minutes every single day
+or committed to solving one leak code
+problem every single day? In fact, one
+of my friends, he used to start his day
+every day with one leak code problem.
+And obviously at first it was hard, but
+over time he got better at it and he
+even started liking it. So much so that
+even after he landed his software
+engineering job, he continued to do a
+lead code problem every day because he
+just enjoyed the problem solving
+process. But start simple. Code for just
+30 minutes a day. If that's too much,
+just do 15 minutes. Or instead of
+measuring it based on time, commit to
+coding 20 lines of code a day. Cut it
+down to whatever you can manage. But the
+most important thing is you don't feel
+like it's too much of a burden day in
+day out. And what you'll see over time,
+all those fears that you had about
+coding will slowly disappear. Because
+once you code it down to say 10 lines of
+code a day, you realize, huh, this isn't
+actually too bad. And I have a sense of
+accomplishment. I actually like it. And
+maybe let me just start coding 50 lines
+of code a day. And just like the person
+that started eating one piece of candy
+every single day, thought to himself,
+"Hey, it's not that bad. It tastes
+pretty good." Then he increased it to
+two pieces of candy, then three, then
+four, and naturally allowed himself to
+eat more and more. And similarly, you
+will naturally allow yourself to code
+more and more. Really quick, if you want
+to break into tech and become a software
+engineer, Corsera has two
+beginnerfriendly learning paths that can
+help you get there. These are hands-on
+project-based courses designed to teach
+you the real skills companies hire for.
+The full stack developer path covers
+everything from HTML, CSS, and
+JavaScript to backend technologies like
+Node.js, Express, and databases. You'll
+also dive into modern tools like Docker
+and Kubernetes. And by the end, you'll
+have a capstone project that you can
+actually show on your portfolio. The
+software developer/engineer path focuses
+more on programming fundamentals with
+languages like Java, Python, and C.
+You'll learn software design, debugging,
+testing, and how to build applications
+with real world tools used in the
+industry. At the end, you'll have
+industry specific skills, plus a polish
+resume showcasing all the projects you
+built. And right now is the best time to
+sign up for Corsera, as for a limited
+time, they're offering 50% off their
+annual subscription. Click the link down
+below in the description to sign up
+right now. And now back to the video.
+But I get it, some of these 30inut
+coding blocks can be pretty difficult
+for some people. Well, I mean, Tik Tok
+has done a number on a lot of you guys'
+attention spans. So, try using the
+Pomodoro technique where you work hard
+for 25 minutes and then you take a rest
+for 5 minutes. Work for 25, rest for
+five, cycle repeats. Through this,
+you'll slowly build momentum and over
+time, you will do more work and less of
+the rest. But remember, the goal isn't
+to be perfect. It's just to show up
+consistently and let the small wins
+compound. Now that we set a baseline for
+how coding can become addictive, it's
+time to crank up the dopamine and we
+need to supercharge our reward systems
+and really hack our brains. So step
+three is to optimize for dopamine.
+Everyone that is a human being loves
+short-term gratification. As soon as I
+go on TikTok, I see a cool video of a
+very handsome guy, I'm satisfied. Or as
+soon as I pop a piece of chocolate in my
+mouth, I love that I got a burst of
+dopamine. But how can we do the same
+thing with coding? So obviously when
+learning how to code, you're going to be
+doing a lot of coding projects. And like
+I said before, you need to get very
+specific with the plan of how you're
+going to build the projects. If you want
+to build an application, don't just say,
+"I'm going to build an app." Break it
+down. Start with I'm going to build an
+app with a login, dashboard, and
+messaging feature. Then zoom in further.
+For the login, I'm going to create a
+username and password field and
+two-factor authentication and style the
+input boxes to be 100 pixels wide. For
+the dashboard, display a welcome message
+with the usernames. Fetch mock data from
+an API and show it on a table. For
+messaging, start by rendering a static
+chat bubble. Then wire it up and send
+display messages in real time. These
+tiny tasks are trackable
+accomplishments. And each one is a win.
+And each win gives your brain that sweet
+hit of dopamine to keep going. And this
+is important because you're not going to
+be building huge applications in one
+day. You're not going to become a
+six-figure software engineer overnight.
+It takes time. But every tiny
+accomplishment builds momentum and over
+time you build a snowball of
+accomplishment with great momentum and
+you become very successful. And
+something you guys can use are coding
+habit trackers like loop habit tracker
+or a notion board that allows you to
+change the status of particular items or
+if you're working on GitHub the
+contribution graph which can highlight
+certain squares of a certain color and
+the darker that color is the more code
+you have contributed. And I remember
+when I first started my job, I would see
+my code contributions. And I knew that
+if I made 30 contributions in one day, I
+would have a dark blue square at the end
+of the day. And at the end of the week,
+I made it my goal to have five squares
+side by side by side, all dark blue. And
+it became something that I would strive
+towards. And that caused a sense of
+addiction because it was positive
+reinforcement at the end of the day and
+at the end of the week. But also, if you
+want to build a really good and strong
+addiction, you need friends that are
+addicts. If you have five friends and
+all they love to do is eat a bunch of
+dessert candies and sodas, chances are
+over time you're going to start eating a
+lot of dessert candies and sodas and
+probably develop a sugar addiction.
+Similarly, if you have friends who are
+also trying to go through their own
+coding journeys, try to set up weekly
+co-working sessions on Zoom or try
+working on a project with them or create
+a shared notion page where you post
+daily updates of what's going on because
+accountability really, really helps you
+stay on track. But also, if they're your
+friends, they make the whole process way
+more enjoyable. And speaking of
+accountability, try setting up different
+group challenges. Maybe we'll all ship
+one feature by Friday on this project.
+Or everyone solves one leak code problem
+every single morning and then talks
+about their solution in the evening. And
+slowly you can see your group progress,
+people's grasp filling up and now it's a
+whole group accomplishment. And if
+you're looking for a community where
+you're not just learning alone, but
+actually building alongside others, SUI
+Launchpad is for you. I know what it's
+like to feel stuck or unsure of your
+next step. And that's exactly why I
+created a space where you can ask me
+questions, get feedback, and actually
+move forward. Every week, I'll be
+available to give direct support to help
+members everything from résumés to
+interview prep to tough career
+decisions. You'll also hear directly
+from top tech professionals and get
+access to guidance I wish I had when I
+started out. So, if you're interested,
+there's a wait list open. Check the link
+down below in the description. So, now
+that we've gotten into a workflow and
+almost the feeling of I love coding and
+a coding is an addiction. Now, we need
+to strengthen the addiction. Here's what
+I mean. Let's say you really like candy,
+but then one day I come to your house
+and I throw every piece of candy away
+into the trash. So, the next time that
+you want candy, you have to go and buy
+it from the store. The chances of you
+eating candy that day just went down.
+And over time, if I continue to stop or
+even slow you down from being able to
+eat candy, the chances of you keeping
+strong with that candy addiction goes
+down further and further. So in our
+coding workflow, in order to make sure
+our addiction is as strong as we need,
+we need to reduce friction as much as we
+can. Your job is to remove every
+possible obstacle between you and the
+ability to make progress. For example,
+let's say you've been coding all day. At
+night, instead of just closing your
+laptop, leave your coding window open,
+your IDE open, your browser tabs open.
+Stick a post-it note on your desk that
+says, "Next step, implement X feature."
+That way, when you come back the next
+day, you're not wasting mental energy
+trying to remember where you left off.
+You're diving straight into the flow.
+That's where project management tools
+like Notion or any task manager come in.
+The more effort you spend on organizing
+your thoughts after you've already sat
+down to work, the less likely you are to
+stick with it. Reduce the mental load.
+Reduce the friction ahead of time. While
+you're actually coding, maybe try using
+a boilerplate template so you're not
+rewriting logic over and over. Leverage
+tools like GitHub Copilot to
+autocomplete functions or autoimp import
+modules. Or use cursor or warp to fix
+environmental issues instantly. With AI
+tools today, writing code can be nearly
+frictionless if you let it. And
+personally, I'm not the type, but I know
+people who go all out on their setups.
+ergonomic keyboards, vertical monitors,
+fancy mouse, standing desk with walking
+pads, and all this crazy expensive
+equipment. And honestly, if you can
+afford it, and it helps reduce friction
+to help you code faster, I'm all for it.
+I just personally don't like it. All
+right, so at this point, we're feeling
+good about coding. It's addictive. We
+reduced our friction. However, we
+actually need to bring back some of that
+friction. And if you're confused, just
+bear with me for a sec. In order for you
+to truly be addicted to coding, you need
+to balance challenge with comfort. So, a
+lot of people like going on vacations to
+roller coaster rides, theme parks, and
+fancy restaurants. But after a while, it
+just gets boring. I mean, after a week
+in Disneyland, how many more rides can
+you actually go on? So, you need to
+instill some types of challenges in
+order for you to keep your brain fully
+engaged. But, it can't be too much of a
+challenge because then you'll get burnt
+out. For example, even though I have two
+computer science degrees, a bachelor's
+and masters, I still struggled a lot
+when I first started my software
+engineering job, real world coding felt
+very different than university. There
+were moments in which I genuinely felt
+like I didn't know anything. And that's
+normal, and that's actually where growth
+happens. And so, consistency in coding
+isn't just about reducing friction or
+pushing yourself. It's about walking
+that fine line between challenge and
+comfort. If everything feels too easy,
+then you're coasting and not learning.
+But if everything feels too hard, you'll
+dread even opening up your laptop. The
+goal is to live in the growth zone where
+the work is hard enough to stretch you,
+but not so hard that it breaks you. And
+here's how I like to manage it. So try
+alternating between hard and easier
+tasks. Maybe you spend a few days
+working on things like learning a new
+API call or major feature development.
+Then you take a break and work on easier
+tasks like UI tweaks, CSS issues, or
+writing test cases. Then at the end of
+the week, you reflect on what was hard,
+what came easy, and what can I improve
+next time. Make sure you're organized
+throughout this whole process. Because
+if not, no matter what you learn, you
+will always be confused, overwhelmed,
+and stressed. But if everything is super
+easy and you're not struggling even to
+the slightest, then it might be time to
+switch things up. Whether it be at your
+job, asking your manager for different
+tasks, or switching companies entirely
+because the challenge is just never up
+to par. Because at the end of the day,
+always remember, no pain means no gain.
+Well, that's about all I have in this
+video. I really hope that you guys
+enjoyed it. And if you did, make sure to
+hit the like button, subscribe if you
+haven't already, and if you're
+interested in my community in which
+you'll get direct support from me in all
+things software engineering, link will
+be down below in the description, as
+well as if you're interested in my
+absolutely free tech newsletter, link
+for that will also be below in the
+description. Make sure to check both of
+those out. And if you're interested in
+what software engineers do on a
+day-to-day basis, you might like this
+video right here.

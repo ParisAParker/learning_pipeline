@@ -1,6 +1,7 @@
 import json
 import re
 import pandas as pd
+import requests
 import streamlit as st
 from pathlib import Path
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
@@ -20,6 +21,71 @@ def clean_raw_quiz_data(raw_quiz):
     data = json.loads(json_output)
 
     return data
+
+def create_anki_deck(deck_name: str):
+
+    requests.post("http://localhost:8765", json={
+        "action": "createDeck",
+        "version": 6,
+        "params": {"deck": deck_name}
+    })
+
+def generate_anki_cards(deck_name: str, question: str, answer_exp: str, tags: list) -> None:
+    note = {
+        "deckName": deck_name,
+        "modelName": "Basic",
+        "fields": {
+            "Front": f"{question}",
+            "Back": f"{answer_exp}"
+        },
+        "options": {
+            "allowDuplicate": False
+        },
+        "tags": tags
+    }
+
+    res = requests.post("http://localhost:8765", json={
+        "action": "addNote",
+        "version": 6,
+        "params": {"note": note}
+        })
+    
+def create_flashcards_from_transcript(deck_name: str, clean_quiz: list) -> None:
+    with st.spinner("Creating Anki Flashcards..."):
+        # Create the new deck name
+        create_anki_deck(deck_name)
+
+        # Add all the cards to the deck
+        for content in clean_quiz:
+            question = content['question']
+            answer_exp = content['answer'] + " Explanation: " + content['explanation']
+            tags = []
+
+            generate_anki_cards(
+                deck_name=deck_name,
+                question=question,
+                answer_exp=answer_exp,
+                tags=tags
+                )
+    st.success("Created Anki Flashcards")
+
+def create_flashcards_from_transcript_for_bible(deck_name: str, clean_quiz: list) -> None:
+    # Create the new deck name
+    create_anki_deck(deck_name)
+
+    # Add all the cards to the deck
+    for content in clean_quiz:
+        question = content['question']
+        answer_exp = content['answer']
+        tags = []
+
+        generate_anki_cards(
+            deck_name=deck_name,
+            question=question,
+            answer_exp=answer_exp,
+            tags=tags
+            )
+
 
 def export_pdf(data, video_id, output_dir=QUIZ_DIR):
     """

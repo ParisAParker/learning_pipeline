@@ -1,0 +1,67 @@
+2025-10-20 18:31:20,082 [INFO] __main__: Starting learning pipeline. Input type: youtube
+2025-10-20 18:31:20,083 [INFO] transcript_service: Extracting video id from Youtube URL...
+2025-10-20 18:31:20,083 [INFO] transcript_service: Successfully extracted video id
+2025-10-20 18:31:20,083 [INFO] transcript_service: Transcribing Youtube Video...
+2025-10-20 18:31:21,289 [INFO] transcript_service: Youtube Video Transcribed!
+2025-10-20 18:31:21,289 [ERROR] transcript_service: Error saving Youtube transcript to C:\Users\kidsa\Documents\learning_pipeline\data\raw\transcripts\2UvHiH7zJLU.txt: [Errno 13] Permission denied: 'C:\\Users\\kidsa\\Documents\\learning_pipeline\\data\\raw\\transcripts\\2UvHiH7zJLU.txt'
+2025-10-20 18:34:42,558 [INFO] __main__: Starting learning pipeline. Input type: youtube
+2025-10-20 18:34:42,558 [INFO] transcript_service: Extracting video id from Youtube URL...
+2025-10-20 18:34:42,558 [INFO] transcript_service: Successfully extracted video id
+2025-10-20 18:34:42,558 [INFO] transcript_service: Transcribing Youtube Video...
+2025-10-20 18:34:43,424 [INFO] transcript_service: Youtube Video Transcribed!
+2025-10-20 18:34:43,425 [INFO] transcript_service: Transcript saved to C:\Users\kidsa\Documents\learning_pipeline\data\raw\transcripts\2UvHiH7zJLU.txt
+2025-10-20 18:34:49,245 [INFO] transcript_service: Saved metadata to C:\Users\kidsa\Documents\learning_pipeline\data\intermediate\metadata\2UvHiH7zJLU.json
+2025-10-20 19:05:30,390 [INFO] __main__: Starting learning pipeline. Input type: youtube
+2025-10-20 19:05:30,390 [INFO] __main__: Ingesting Transcript...
+2025-10-20 19:05:30,390 [INFO] transcript_service: Extracting video id from Youtube URL...
+2025-10-20 19:05:30,390 [INFO] transcript_service: Successfully extracted video id
+2025-10-20 19:05:30,390 [INFO] transcript_service: Transcribing Youtube Video...
+2025-10-20 19:05:31,418 [INFO] transcript_service: Youtube Video Transcribed!
+2025-10-20 19:05:31,419 [INFO] transcript_service: Transcript saved to C:\Users\kidsa\Documents\learning_pipeline\data\raw\transcripts\2UvHiH7zJLU.txt
+2025-10-20 19:05:34,204 [INFO] transcript_service: Saved metadata to C:\Users\kidsa\Documents\learning_pipeline\data\intermediate\metadata\2UvHiH7zJLU.json
+2025-10-20 19:05:34,212 [INFO] __main__: Ingested Transcript
+2025-10-20 19:05:34,212 [INFO] prompt_manager: Built prompt
+2025-10-20 19:06:09,382 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-20 19:06:09,495 [INFO] openai_client: OpenAI response received successfully on attempt 1
+2025-10-20 19:10:55,666 [INFO] __main__: Starting learning pipeline. Input type: youtube
+2025-10-20 19:10:55,667 [INFO] __main__: Ingesting Transcript...
+2025-10-20 19:10:55,667 [INFO] transcript_service: Extracting video id from Youtube URL...
+2025-10-20 19:10:55,667 [INFO] transcript_service: Successfully extracted video id
+2025-10-20 19:10:55,667 [INFO] transcript_service: Transcribing Youtube Video...
+2025-10-20 19:10:56,645 [INFO] transcript_service: Youtube Video Transcribed!
+2025-10-20 19:10:56,645 [INFO] transcript_service: Transcript saved to C:\Users\kidsa\Documents\learning_pipeline\data\raw\transcripts\2UvHiH7zJLU.txt
+2025-10-20 19:10:59,488 [INFO] transcript_service: Saved metadata to C:\Users\kidsa\Documents\learning_pipeline\data\intermediate\metadata\2UvHiH7zJLU.json
+2025-10-20 19:10:59,496 [INFO] __main__: Ingested Transcript
+2025-10-20 19:10:59,496 [INFO] prompt_manager: Built prompt
+2025-10-20 19:10:59,523 [INFO] openai_client: Sending request to OpenAI...
+2025-10-20 19:11:37,503 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-20 19:11:37,509 [INFO] openai_client: OpenAI response received successfully on attempt 1
+2025-10-20 19:11:37,509 [INFO] openai_client: Saved OpenAI response for text \u2192 C:\Users\kidsa\Documents\learning_pipeline\data\raw\openai_responses\2UvHiH7zJLU.json
+2025-10-20 19:11:37,511 [INFO] parser: Clean quiz JSON saved to C:\Users\kidsa\Documents\learning_pipeline\data\processed\2UvHiH7zJLU.json
+2025-10-20 19:11:37,511 [INFO] parser: Successfully extracted 20 quiz items from response.
+2025-10-20 19:11:37,523 [INFO] pdf_generator: Exported PDF to C:\Users\kidsa\Documents\learning_pipeline\data\processed\pdf_ready\2UvHiH7zJLU.pdf
+2025-10-20 19:11:37,523 [INFO] anki_generator: Creating Anki Flashcards...
+2025-10-20 19:11:37,523 [INFO] anki_generator: Creating anki deck named: 2UvHiH7zJLU...
+2025-10-20 19:13:11,542 [INFO] __main__: Starting learning pipeline. Input type: youtube
+2025-10-20 19:13:11,542 [INFO] __main__: Ingesting Transcript...
+2025-10-20 19:13:11,542 [INFO] transcript_service: Extracting video id from Youtube URL...
+2025-10-20 19:13:11,542 [INFO] transcript_service: Successfully extracted video id
+2025-10-20 19:13:11,542 [INFO] transcript_service: Transcribing Youtube Video...
+2025-10-20 19:13:12,653 [INFO] transcript_service: Youtube Video Transcribed!
+2025-10-20 19:13:12,654 [INFO] transcript_service: Transcript saved to C:\Users\kidsa\Documents\learning_pipeline\data\raw\transcripts\2UvHiH7zJLU.txt
+2025-10-20 19:13:15,928 [INFO] transcript_service: Saved metadata to C:\Users\kidsa\Documents\learning_pipeline\data\intermediate\metadata\2UvHiH7zJLU.json
+2025-10-20 19:13:15,945 [INFO] __main__: Ingested Transcript
+2025-10-20 19:13:15,945 [INFO] prompt_manager: Built prompt
+2025-10-20 19:13:15,973 [INFO] openai_client: Sending request to OpenAI...
+2025-10-20 19:14:06,430 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-20 19:14:06,463 [INFO] openai_client: OpenAI response received successfully on attempt 1
+2025-10-20 19:14:06,464 [INFO] openai_client: Saved OpenAI response for text \u2192 C:\Users\kidsa\Documents\learning_pipeline\data\raw\openai_responses\2UvHiH7zJLU.json
+2025-10-20 19:14:06,465 [INFO] parser: Clean quiz JSON saved to C:\Users\kidsa\Documents\learning_pipeline\data\processed\2UvHiH7zJLU.json
+2025-10-20 19:14:06,465 [INFO] parser: Successfully extracted 20 quiz items from response.
+2025-10-20 19:14:06,481 [INFO] pdf_generator: Exported PDF to C:\Users\kidsa\Documents\learning_pipeline\data\processed\pdf_ready\2UvHiH7zJLU.pdf
+2025-10-20 19:14:06,481 [INFO] anki_generator: Creating Anki Flashcards...
+2025-10-20 19:14:06,481 [INFO] anki_generator: Creating anki deck named: 2UvHiH7zJLU...
+2025-10-20 19:14:08,588 [INFO] anki_generator: Created anki deck named: 2UvHiH7zJLU
+2025-10-20 19:14:08,588 [INFO] anki_generator: Generating Anki Flashcards...
+2025-10-20 19:14:49,833 [INFO] anki_generator: Finished generating Anki Flashcards
+2025-10-20 19:14:49,833 [INFO] __main__: \u2705 Learning pipeline completed successfully.
