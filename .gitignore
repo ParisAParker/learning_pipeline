@@ -2,4 +2,6 @@
 outputs
 venv
 __pycache__
+data/
 notebooks/
+logs/
