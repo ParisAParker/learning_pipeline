@@ -1,4 +1,7 @@
+from typing import Optional
+
 import requests
+
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -6,15 +9,24 @@ logger = get_logger(__name__)
 def create_anki_deck(deck_name: str):
     logger.info(f"Creating anki deck named: {deck_name}...")
 
-    requests.post("http://localhost:8765", json={
-        "action": "createDeck",
-        "version": 6,
-        "params": {"deck": deck_name}
-    })
-    
-    logger.info(f"Created anki deck named: {deck_name}")
+    try:
+        requests.post("http://localhost:8765", json={
+            "action": "createDeck",
+            "version": 6,
+            "params": {"deck": deck_name}
+        })    
+        logger.info(f"Created anki deck named: {deck_name}")
+    except Exception as e:
+        logger.warning(f"Error creating deck_name: {deck_name}")
+        logger.warning("Could not reach AnkiConnect on port 8765.")
+        logger.warning("Please open Anki Desktop and ensure the AnkiConnect plugin is installed and enabled")
 
-def generate_anki_cards(deck_name: str, question: str, answer_exp: str, tags: list) -> None:
+def generate_anki_cards(
+        deck_name: str, 
+        question: str, 
+        answer_exp: str, 
+        tags: list
+    ) -> None:
     note = {
         "deckName": deck_name,
         "modelName": "Basic",
@@ -28,17 +40,32 @@ def generate_anki_cards(deck_name: str, question: str, answer_exp: str, tags: li
         "tags": tags
     }
 
-    res = requests.post("http://localhost:8765", json={
-        "action": "addNote",
-        "version": 6,
-        "params": {"note": note}
-        })
+    try:
+        requests.post("http://localhost:8765", json={
+            "action": "addNote",
+            "version": 6,
+            "params": {"note": note}
+            })
+    except Exception as e:
+        logger.warning("Error generating anki cards")
+        logger.warning("Could not reach AnkiConnect on port 8765.")
+        logger.warning("Please open Anki Desktop and ensure the AnkiConnect plugin is installed and enabled")
     
-def create_flashcards_from_transcript(deck_name: str, clean_quiz: list) -> None:
+def create_flashcards_from_transcript(
+        clean_quiz: list,
+        user_deck_name: Optional[str] = None, 
+        video_title: Optional[str] = None,
+        channel_name: Optional[str] = None
+    ) -> None:
     logger.info("Creating Anki Flashcards...")
     
-    # Create the new deck name
-    create_anki_deck(deck_name)
+    if video_title and channel_name:
+        deck_name = f"{channel_name}::{video_title}"         
+        # Create the new deck name
+        create_anki_deck(deck_name)
+    else:
+        deck_name = user_deck_name.copy()
+        create_anki_deck(deck_name)
 
     logger.info("Generating Anki Flashcards...")
     # Add all the cards to the deck

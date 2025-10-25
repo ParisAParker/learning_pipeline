@@ -1,10 +1,11 @@
 # Base packages
 import json
 from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 # 3rd party packages
 import yt_dlp
-import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from urllib.parse import urlparse, parse_qs
 
@@ -136,11 +137,21 @@ def save_metadata(url: str, video_id: str) -> None:
         json.dump(info, file)
         logger.info(f"Saved metadata to {metadata_filepath}")
 
+def get_yt_video_title_author(video_id: str) -> str:
+    metadata_filepath = METADATA_DIR / f"{video_id}.json"
+
+    with open(metadata_filepath, 'r') as file:
+        metadata_file = json.load(file)
+
+        video_title = metadata_file['title']
+        video_author = metadata_file['channel']
+
+        return video_title, video_author
 
 if __name__ == "__main__":
-    video_id = "teCubd25XwI"
-    raw = transcribe_youtube_video(video_id)
-    save_transcript(raw, video_id)
+    video_id = "2_udhlFNNBk"
+    result = get_yt_video_title_author(video_id)
+    print(result)
 
 ## TO DO: Update the all functions that save outputs to new structure (data folder)
 ## Functions: save_metadata, save transcript

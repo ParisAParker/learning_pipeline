@@ -1,12 +1,8 @@
-
-# Standard library
 from pathlib import Path
 from typing import Optional
 
-# Third-party
 from dotenv import load_dotenv
 
-# Local modules
 from utils.logger import get_logger
 from config.paths import TRANSCRIPTS_DIR, RAW_OPENAI_DIR
 from config.variable import OPENAI_API_KEY
@@ -15,7 +11,8 @@ from core.transcript_service import (
     extract_video_id,
     transcribe_youtube_video, 
     save_transcript, 
-    save_metadata
+    save_metadata,
+    get_yt_video_title_author
 )
 from core.prompt_manager import build_quiz_prompt
 from core.openai_client import (
@@ -32,10 +29,10 @@ logger = get_logger(__name__)
 
 def run_learning_pipeline(
     api_key: str,
+    input_type: str,
     youtube_url: Optional[str] = None,
     transcript_text: Optional[str] = None,
-    question_count: int = 20,
-    input_type: str = "youtube"
+    question_count: int = 20
 ) -> None:
     """
     Core orchestration function for generating quizzes and outputs.
@@ -56,6 +53,7 @@ def run_learning_pipeline(
         raw_transcript = transcribe_youtube_video(video_id)
         save_transcript(raw_transcript, video_id)
         save_metadata(youtube_url, video_id)
+        video_title, channel_name = get_yt_video_title_author(video_id)
         transcript_text = (TRANSCRIPTS_DIR / f"{video_id}.txt").read_text()
         source_id = video_id
     else:
@@ -79,7 +77,18 @@ def run_learning_pipeline(
 
     # 6. GENERATE OUTPUTS
     export_pdf(quiz_data, source_id)
-    create_flashcards_from_transcript(deck_name=source_id, clean_quiz=quiz_data)
+
+    if input_type == "youtube":
+        create_flashcards_from_transcript( 
+            clean_quiz=quiz_data,
+            video_title=video_title,
+            channel_name=channel_name
+        )
+    else:
+        create_flashcards_from_transcript(
+            clean_quiz=quiz_data,
+            user_deck_name=source_id
+        )
 
     logger.info("✅ Learning pipeline completed successfully.")
     return {

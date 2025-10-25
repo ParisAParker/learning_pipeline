@@ -123,10 +123,10 @@ if st.button("Generate Quiz"):
     with st.spinner("Running pipeline... this may take a moment ⏳"):
         try:
             result = run_app_pipeline(
+                input_type="youtube" if youtube_url else "text",
                 youtube_url=youtube_url,
                 transcript_text=transcript_text,
-                question_count=question_count,
-                input_type="youtube" if youtube_url else "text"
+                question_count=question_count
             )
 
             st.success("✅ Quiz generated successfully!")
