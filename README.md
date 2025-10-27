@@ -14,7 +14,7 @@ The **Learning Pipeline** is an automated system that converts educational conte
 
 It’s built around research from **Dr. Andrew Huberman** and cognitive science studies showing that **retrieval practice** — *testing yourself on information instead of re-reading it* — dramatically improves long-term retention.
 
-[**Click here for the full Youtube Video**]("https://www.youtube.com/watch?v=ddq8JIMhz7c&t=868s")
+[Click here for the full Youtube Video]("https://www.youtube.com/watch?v=ddq8JIMhz7c&t=868s")
 
 > **Motivation:**  
 > Most people learn passively by consuming videos or text. This pipeline helps you practice *active recall* automatically, turning everything you study into an interactive test.
