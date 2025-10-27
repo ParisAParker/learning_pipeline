@@ -3,6 +3,7 @@ from typing import Optional
 import requests
 
 from utils.logger import get_logger
+from config.variable import ANKI_CONNECT_URL
 
 logger = get_logger(__name__)
 
@@ -10,11 +11,11 @@ def create_anki_deck(deck_name: str):
     logger.info(f"Creating anki deck named: {deck_name}...")
 
     try:
-        requests.post("http://127.0.0.1:8765", json={
+        requests.post(ANKI_CONNECT_URL, json={
             "action": "createDeck",
             "version": 6,
             "params": {"deck": deck_name}
-        })    
+        })
         logger.info(f"Created anki deck named: {deck_name}")
     except Exception as e:
         logger.warning(f"Error creating deck_name: {deck_name}")
@@ -41,7 +42,7 @@ def generate_anki_cards(
     }
 
     try:
-        requests.post("http://127.0.0.1:8765", json={
+        requests.post(ANKI_CONNECT_URL, json={
             "action": "addNote",
             "version": 6,
             "params": {"note": note}
