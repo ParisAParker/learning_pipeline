@@ -4,3 +4,4 @@ python-dotenv
 streamlit
 reportlab
 yt_dlp
+ffmpeg
