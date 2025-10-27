@@ -1,12 +1,33 @@
-End goal: I want to input a youtube video url into an application (Streamlit) and I want to two things outputs:
-1. [X] I want a quiz with open-ended questions in pdf format
-    - [X] On the backend that pdf should be saved somewhere
-    - [X] The streamlit application should pull from filepath and display it so it can be downloaded from the UI
+# 🎓 Learning Pipeline
 
-    - [] Add in option to choose how many questions are generated
-        - Need to add in input on streamlit side for entering number of questions with a minimum and maximum range
-        - That input should be saved as a variable and read into the function that generates the quiz
-    - [] Add in option to choose between multiple choice or open-ended questions 
+> **Automatically transform any YouTube video or text into quizzes, PDFs, and Anki flashcards — powered by OpenAI and inspired by neuroscience-backed learning principles.**
 
-2. I also want a file of the questions and answers in csv format that can be loaded into Anki
-- After rawopenai output is saved to json, create a loop that saves all of the questions and answers with explanation to anki flashcards
+---
+
+## 🧠 Overview
+
+The **Learning Pipeline** is an automated system that converts educational content (YouTube videos or raw text) into structured learning materials such as:
+
+- 🧩 **Open-ended quizzes** with sample answers  
+- 📘 **PDF study sheets** (student + teacher versions)  
+- 🧠 **Anki flashcards** for spaced-repetition learning  
+
+It’s built around research from **Dr. Andrew Huberman** and cognitive science studies showing that **retrieval practice** — *testing yourself on information instead of re-reading it* — dramatically improves long-term retention.
+
+[**Click here for the full Youtube Video**]("https://www.youtube.com/watch?v=ddq8JIMhz7c&t=868s")
+
+> **Motivation:**  
+> Most people learn passively by consuming videos or text. This pipeline helps you practice *active recall* automatically, turning everything you study into an interactive test.
+
+---
+
+## 🚀 Features
+
+✅ Supports both **YouTube URLs** and **plain text inputs**  
+✅ Automatically transcribes YouTube videos  
+✅ Generates well-structured **quizzes and answers** via OpenAI  
+✅ Exports to both **PDF** and **Anki flashcards**  
+✅ Clean modular architecture — easy to maintain and extend  
+✅ Built with **Streamlit** for an intuitive, no-code front-end  
+
+---
